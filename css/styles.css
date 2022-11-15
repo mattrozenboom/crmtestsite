@@ -1,0 +1,104 @@
+body {
+	background-color: #a0f7bf;
+  height: 100%;
+  place-items: center;
+  text-align: center;
+}
+
+.login {
+	background: #57e5d7;
+	border-radius: 25px;
+  text-align: center;
+  border: solid black;
+  padding-bottom: 20px;
+  width: 35%;
+  position: absolute;
+  left: 440.625px;
+  top: 30%;
+}
+
+.submit {
+	background-color: #15c694; /* Green */
+  border: solid black 2px;
+  border-radius: 15px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+	
+}
+
+.clockin {
+	background-color: #57e5d7;
+	border: solid black 3px;
+	position: fixed;
+	left: 325px;
+	border-radius: 25px;
+	height: 300px;
+	width: 300px;
+}
+
+.lookup {
+	background-color: #57e5d7;
+	border: solid black 3px;
+	position: fixed;
+	left: 650px;
+	border-radius: 25px;
+	height: 300px;
+	width: 300px;
+}
+
+.addin {
+	background-color: #57e5d7;
+	border: solid black 3px;
+	position: fixed;
+	left: 325px;
+	top: 400px;
+	border-radius: 25px;
+	height: 300px;
+	width: 300px;
+}
+
+.sidenav {
+	background-color: #57e5d7;
+	border-right: solid black;
+	border-radius: 25px;
+	height: 100%;
+	position: fixed;
+	z-index: 1; /* Stay on top */
+	top: 0; /* Stay at the top */
+	left: 0;
+	width:300px;
+}
+
+.menu {
+	border: solid black 3px;
+	border-radius: 25px;
+  color: black;
+  height: 15px;
+	width: 225px;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin-bottom: 10px;
+	margin-top: 3%;
+}
+
+.link {
+	
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	
+}
+
+.mybutton {
+	position: relative;
+	top: 25%;
+	
+}
